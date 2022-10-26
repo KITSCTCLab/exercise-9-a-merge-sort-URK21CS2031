@@ -50,4 +50,4 @@ for item in input_data.split(', '):
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
 merge_sort(data)
-print(data)l
+print(data)
